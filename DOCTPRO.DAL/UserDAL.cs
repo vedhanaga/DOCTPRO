@@ -8,6 +8,23 @@ namespace DOCTPRO.DAL
 {
     public class UserDAL
     {
+        #region UserCreate
+        public bool UserCreate()
+        {
+            try
+            {
 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+
+            }
+            return true;
+        }
+        #endregion
     }
 }
