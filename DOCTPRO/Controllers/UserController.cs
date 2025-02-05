@@ -19,7 +19,7 @@ namespace DOCTPRO.Controllers
             {
                 throw ex;
             }
-            return CreatedAtAction("AUMUpdateInEOD", new { status = "101", Response = true });
+            return CreatedAtAction("UserCreate", new { status = "101", Response = true });
         }
     }
 }
